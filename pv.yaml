@@ -10,7 +10,7 @@ spec:
     storage: 5Gi
   csi:
     driver: efs.csi.aws.com
-    volumeHandle: EFS_DNS
+    volumeHandle: fs-0d21b1adce3eb6b02.efs.us-east-1.amazonaws.com
   persistentVolumeReclaimPolicy: Retain
   storageClassName: efs-sc-automated
   volumeMode: Filesystem
